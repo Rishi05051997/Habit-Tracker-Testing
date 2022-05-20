@@ -1,15 +1,6 @@
-import { Icon } from "@iconify/react";
-import { useState, useEffect } from "react";
-import { useHabbitData } from "../../context/HabbitData/HabbitDataContext";
-import { HabitsListing } from "../../pages/HabitsListing/HabitsListing";
+
 import { Sidebar } from "../Sidebar/Sidebar";
-import habbit_1 from "./../../assets/habbit-1.svg";
-import habbit_2 from "./../../assets/habbit-2.svg";
-import habbit_3 from "./../../assets/habbit-3.svg";
-import avatar from "./../../assets/avatar.png";
-import { useNavigate } from "react-router-dom";
 import 'react-calendar/dist/Calendar.css';
-import Calendar from 'react-calendar';
 import {
     Chart as ChartJS,
     CategoryScale,
@@ -19,9 +10,6 @@ import {
     Tooltip,
     Legend,
 } from 'chart.js';
-import { Bar } from 'react-chartjs-2';
-import { useTheme } from "../../context/Theme/themeContext";
-import { HabitProgress } from "../../pages/Home/HabitProgress/HabitProgress";
 ChartJS.register(
     CategoryScale,
     LinearScale,
@@ -62,13 +50,7 @@ export const data = {
     ],
 };
 export const Layout = () => {
-    const { toggleContent, setToggleContent, setModelOpen, state: { habits, archives }, showDescription, modelData } = useHabbitData();
-    const navigate = useNavigate();
-    const { theme, changeTheme } = useTheme();
-    const [value, onChange] = useState(new Date());
-    const copyUrlHandler = () => {
-        navigator.clipboard.writeText(`http://localhost:3000/hdhdhdhdh`)
-    }
+
     return (
         <div className="home-wrapper">
             < Sidebar />

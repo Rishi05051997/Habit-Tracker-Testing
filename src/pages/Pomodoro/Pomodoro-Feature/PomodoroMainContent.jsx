@@ -7,7 +7,7 @@ import { useHabbitData } from "../../../context/HabbitData/HabbitDataContext";
 
 export const PomodoroMainContent = ({ pomodoroHabit, habitId, setToggleTimer }) => {
     const { dispatch, setShowDescription } = useHabbitData();
-    const { name, description, times, workMinutes, breakMinutes, totalAttemptsCounter, totalTimeAllocatedToCompleteHabit, timeTakenToCompleteHabitInMins } = pomodoroHabit;
+    const { name, description, times, workMinutes, breakMinutes, totalAttemptsCounter, timeTakenToCompleteHabitInMins } = pomodoroHabit;
     const [isPaused, setIsPaused] = useState(true);
     const [errorMsg, setErrorMsg] = useState("");
     const [secondsLeft, setSecondsLeft] = useState(Number(workMinutes) * 60);

@@ -1,7 +1,5 @@
 import { Icon } from "@iconify/react";
-import { useState, useEffect } from "react";
-import { useNavigate } from "react-router-dom";
-import { useAuth } from "../../context/Auth/AuthContext";
+import { useState } from "react";
 import { useHabbitData } from "../../context/HabbitData/HabbitDataContext";
 import { addNewLabel, deleteLabelbyLabelName } from "../../services";
 import "./addLabelModal.css";
@@ -9,7 +7,6 @@ import "./addLabelModal.css";
 export const AddLabelsModal = () => {
     const { setShowAddLabelModel, dispatch, state: { labels } } = useHabbitData();
     const [labelText, setLabeltext] = useState("");
-    const [labelArr, setLabelArr] = useState([]);
 
     const labelhandler = (e) => {
         setLabeltext(e.target.value)

@@ -3,7 +3,6 @@ import habbit_2 from "./../../../assets/habbit-2.svg";
 import habbit_3 from "./../../../assets/habbit-3.svg";
 import { useHabbitData } from "../../../context/HabbitData/HabbitDataContext";
 import { Icon } from "@iconify/react";
-import { useEffect, useState } from "react";
 import { useRandomQuotes } from "../../../utils/useRandomQuotes";
 export const NoHabit = () => {
     const { setModelOpen } = useHabbitData();
