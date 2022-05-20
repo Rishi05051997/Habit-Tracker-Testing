@@ -1,0 +1,18 @@
+/*
+    Author: Vrushabh Dhatrak
+    Release: 0.1
+    Description : It's a Habit Listing Card css file
+*/
+.habit-listing-card {
+    height: 2rem;
+    background-color:var(--bg-color-secondory);
+    border-bottom: 1px solid var(--primary-color);
+}
+
+.habit-listing-card:hover {
+    background-color:var(--hover-color);
+}
+
+.habit-rhs-nav {
+    margin-left: auto;
+}

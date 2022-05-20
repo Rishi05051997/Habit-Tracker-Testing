@@ -1,0 +1,140 @@
+/*************** External Imports ***************/
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Nunito:wght@200;300;400;600;700;900&family=Poppins:wght@500&display=swap');
+
+
+:root {
+    
+    /* Below Call to Action Colors */
+    /* --warning-color: #ff9800;
+    --danger-color: #f44336;
+    --success-color: #4caf50;
+    --light-color:#f7f7f7;
+    --dark-color:#000000;
+    --info-color:#129fe0;
+
+    --light-danger-color: #fdecfd;
+    --light-warning-color: #fff4e5;
+    --light-info-color: #e8f4fd;
+    --light-success-color: #edf7ed;
+
+    --primary-color-hover: #a0b8df;
+    --secondory-text-color-hover:#65656ef3;
+    --warning-color-hover: #f0c88c;
+    --danger-color-hover: #f88f87;
+    --success-color-hover: #99c99b;
+    --light-color-hover:#f7f7f7a2;
+    --dark-color-hover:#444444;
+    --info-color-hover:#a7dcf5;
+
+    
+    --redCardBadge-color:#ed1b24;
+    --orangeCardBadge-color:#fa7901;
+    --pinkCardBadge-color:#ee2b8b;
+    --blueCardBadge-color:#00adee;
+    --greenCardBadge-color:#b4bd00;
+    --greyBadge-color:#65656ef3; */
+    
+
+
+
+    /* Below One Heading font sizes for extra small, small, medium , large, extra large, extra extra large */
+    --h5-font-size:0.4rem;
+    --h4-font-size:0.8rem;
+    --h3-font-size:1.2rem;
+    --h2-font-size:1.6rem;
+    --h1-font-size:2.4rem;
+    --h0-font-size:3.2rem;
+
+    /* Below One Text Utilities font sizes for extra small, small, medium , large, extra large, extra extra large */
+    --text-xs-font-size:0.4rem;
+    --text-sm-font-size:0.8rem;
+    --text-md-font-size:1.2rem;
+    --text-lg-font-size:1.6rem;
+    --text-xl-font-size:2.4rem;
+    --text-xxl-font-size:3.2rem;
+    
+   
+    --imgRoundRadius:50%;
+    /* Below One padding size for extra small, small, medium , large, extra large, extra extra large */
+    --pad-xs:0.4rem;
+    --pad-sm:0.8rem;
+    --pad-md:1.2rem;
+    --pad-lg:1.6rem;
+    --pad-xl:2rem;
+    --pad-xxl:3.2rem;
+    --pad-infinite:10rem;
+
+    /* Below One margin size for extra small, small, medium , large, extra large, extra extra large */
+    --mar-xs:0.4rem;
+    --mar-sm:0.8rem;
+    --mar-md:1.2rem;
+    --mar-lg:1.6rem;
+    --mar-xl:2rem;
+    --mar-xxl:3.2rem;
+    --mar-infinite:10rem;
+
+    --sm-border-radius:0.25rem;
+    --md-border-radius:0.5rem;
+    --lgborder-radius:0.75rem;
+    --xl-border-radius:50%;
+
+    --futuraPTBold:'Nunito', sans-serif;
+    --futuraPTDemi:'Nunito', sans-serif;
+    --futuraPTMedium:'Nunito', sans-serif;
+    --futuraPTLight:'Nunito', sans-serif;
+
+}
+
+.default-theme {
+    --font-color: #000000;
+    --font-secondory-color:#494545e7;
+    --bg-color: #ffff;
+    --bg-color-secondory:#f4f4f4;
+    --hover-color:#aeaeae;
+    --primary-color: #01ac82;
+    --danger-color: #f44336;
+    --overlay-color:#54545538;
+    --pallet-bg-color:#cbf7e0;
+    --pallet-shadow-color:#3c3f3d;
+    --label-bg-color:#d0d0d0e7;
+    --border-color:#E5E5E4;
+    --white-color:#ffff;
+    --card-bg-color:#01ac8221;
+    color: var(--font-color);
+}
+
+.dark-theme {
+    --font-color: #ffff;
+    --font-secondory-color:#a8aeabe7;
+    --bg-color: #141319;
+    --bg-color-secondory:#34343d;
+    --hover-color:#62627b;
+    --primary-color: #04ebaf;
+    --danger-color: #f44336;
+    --overlay-color:#6a656500;
+    --pallet-bg-color:#2b6a49;
+    --pallet-shadow-color:#3c3f3d;
+    --label-bg-color:#f0faf5e7;
+    --border-color:#E5E5E4;
+    --white-color:#ffff;
+    --card-bg-color:#aaded166;
+    color: var(--font-color);
+}
+
+
+
+::-webkit-scrollbar {
+  width: 16px;
+}
+  
+::-webkit-scrollbar-track {
+  background-color: var(--bg-color);
+  border-radius: 4rem;
+}
+  
+::-webkit-scrollbar-thumb {
+  background-color: var(--primary-color);
+  border-radius: 4rem;
+} 
+
+  

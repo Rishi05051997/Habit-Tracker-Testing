@@ -1,0 +1,284 @@
+/*
+  Author: Vrushabh Dhatrak
+  Release: 0.1
+  Description : Typography Component Css
+*/
+/* Tab Starting here  */
+/******  Typography  ********/
+/******  Spacing  ********/
+/******  Height-Utility-classes  ********/
+.sm-height {
+    height: 2.5rem;
+}
+
+.md-height {
+    height: 3.5rem;
+}
+
+.xl-height {
+    height: 5rem;
+
+}
+
+
+/******  Border Radius-Utility-classes  ********/
+.sm-bdr-radius {
+    border-radius:var(--sm-border-radius);
+}
+
+.md-bdr-radius {
+    border-radius:var(--md-border-radius);
+}
+
+.lg-bdr-radius {
+    border-radius:var(--lg-border-radius);
+}
+
+.xl-bdr-radius {
+    border-radius:var(--xl-border-radius);
+}
+
+/******  font-sizes  ********/
+/******  Heading Typography ********/
+.head-0 {
+    font-family: var(--futuraPTBold);
+    font-size:var(--h0-font-size);
+    line-height:3.2rem;
+    font-weight: 1000;
+}
+.head-1 {
+    font-family: var(--futuraPTBold);
+    font-size:var(--h1-font-size);
+    line-height:2.4rem;
+    font-weight: 900;
+}
+
+.head-2 {
+    font-family: var(--futuraPTDemi);
+    font-size:var(--h2-font-size);
+    line-height:1.6rem;
+    font-weight:700;
+}
+.head-3 {
+    font-family: var(--futuraPTMedium);
+    font-size:var(--h3-font-size);
+    line-height:1.2rem;
+    font-weight:600;
+}
+.head-4 {
+    font-family: var(--futuraPTLight);
+    font-size:var(--h4-font-size);
+    line-height:0.8rem;
+    font-weight: 400;
+}
+.head-5 {
+    font-family: var(--futuraPTLight);
+    font-size:var(--h5-font-size);
+    line-height:0.4rem;
+    font-weight:300;
+}
+/******  Text Typography ********/
+.text-1 {
+    font-family: var(--futuraPTLight);
+    font-size:var(--text-xs-font-size);
+    font-weight: 100;
+    line-height: 0.4rem;
+}
+
+.text-2 {
+    font-family: var(--futuraPTLight);
+    font-size:var(--text-sm-font-size);
+    font-weight: 100;
+    line-height: 0.8rem;
+}
+
+.text-3 {
+    font-family: var(--futuraPTLight);
+    font-size:var(--text-md-font-size);
+    font-weight: 100;
+    line-height: 1.2rem;
+}
+
+.text-4 {
+    font-family: var(--futuraPTLight);
+    font-size:var(--text-lg-font-size);
+    font-weight: 100;
+    line-height: 1.6rem;
+}
+
+.text-5 {
+    font-family: var(--futuraPTMedium);
+    font-size:var(--text-xl-font-size);
+    font-weight: 600;
+    line-height: 2.6rem;
+}
+
+.text-6 {
+    font-family: var(--futuraPTMedium);
+    font-size:var(--text-xxl-font-size);
+    font-weight: 800;
+    line-height: 3.2rem;
+}
+
+
+/******  Padding Utility classes  ********/
+
+/******  Padding Y axis classes  ********/
+.pad-y-1 {
+    padding-top: var(--pad-xs);
+}
+
+.pad-y-2 {
+    padding-top: var(--pad-sm);
+}
+
+.pad-y-3 {
+    padding-top: var(--pad-md);
+}
+
+.pad-y-4 {
+    padding-top: var(--pad-xl);
+}
+
+.pad-y-5 {
+    padding-top: var(--pad-xl);
+}
+
+.pad-y-6 {
+    padding-top: var(--pad-xxl);
+}
+
+/******  Padding X Axis classes  ********/
+.pad-x-1 {
+    padding-right: var(--pad-xs);
+}
+
+.pad-x-2 {
+    padding-right: var(--pad-sm);
+}
+
+.pad-x-3 {
+    padding-right: var(--pad-md);
+}
+
+.pad-x-4 {
+    padding-right: var(--pad-xl);
+}
+
+.pad-x-5 {
+    padding-right: var(--pad-xl);
+}
+
+.pad-x-6 {
+    padding-right: var(--pad-xxl);
+}
+
+/******  Padding All Direction  ********/
+.pad-xs {
+    padding: var(--pad-xs);
+}
+
+.pad-sm {
+    padding: var(--pad-sm);
+}
+
+.pad-md {
+    padding: var(--pad-md);
+}
+
+.pad-lg {
+    padding: var(--pad-lg);
+}
+
+.pad-xl {
+    padding: var(--pad-xl);
+}
+
+.pad-xxl {
+    padding: var(--pad-xxl);
+}
+.pad-largest {
+    padding: var(--pad-infinite);
+}
+
+
+/******  Margin Utility classes  ********/
+
+/******  Margin Y axis classes  ********/
+.mar-y-1 {
+    margin-top: var(--mar-xs);
+}
+
+.mar-y-2 {
+    margin-top: var(--mar-sm);
+}
+
+.mar-y-3 {
+    margin-top: var(--mar-md);
+}
+
+.mar-y-4 {
+    margin-top: var(--mar-xl);
+}
+
+.mar-y-5 {
+    margin-top: var(--mar-xl);
+}
+
+.mar-y-6 {
+    margin-top: var(--mar-xxl);
+}
+
+/******  margin X Axis classes  ********/
+.mar-x-1 {
+    margin-right: var(--mar-xs);
+}
+
+.mar-x-2 {
+    margin-right: var(--mar-sm);
+}
+
+.mar-x-3 {
+    margin-right: var(--mar-md);
+}
+
+.mar-x-4 {
+    margin-right: var(--mar-xl);
+}
+
+.mar-x-5 {
+    margin-right: var(--mar-xl);
+}
+
+.mar-x-6 {
+    margin-right: var(--mar-xxl);
+}
+
+/******  margin All Direction  ********/
+.mar-xs {
+    margin: var(--mar-xs);
+}
+
+.mar-sm {
+    margin: var(--mar-sm);
+}
+
+.mar-md {
+    margin: var(--mar-md);
+}
+
+.mar-lg {
+    margin: var(--mar-lg);
+}
+
+.mar-xl {
+    margin: var(--mar-xl);
+}
+
+.mar-xxl {
+    margin: var(--mar-xxl);
+}
+
+.mar-infinite {
+    margin: var(--mar-infinite);
+}

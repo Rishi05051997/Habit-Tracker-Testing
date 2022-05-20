@@ -1,0 +1,22 @@
+.chips-container {
+    width: 100%;
+    border: 2px solid var(--primary-color);
+    display: flex;
+    flex-wrap: wrap;
+    height: 10rem;
+    overflow-y: auto;
+    border-radius: 0.5rem;
+}
+.chips-btn{
+    display: flex;
+    align-items: center;
+    width: max-content;
+    height: 2rem;
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    justify-content: space-between;
+    position: relative;
+    margin: 0.25rem 0.25rem 0.25rem 0;
+    background-color: var(--font-secondory-color);
+    color: var(--label-bg-color);
+}

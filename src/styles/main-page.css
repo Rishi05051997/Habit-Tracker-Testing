@@ -1,0 +1,57 @@
+/* 
+    Author: Vrushabh Dhatrak
+    Version: 1.0
+    Description: Landing Page CSS
+*/
+/* Here converted Default font size to 10px */
+
+.landing-page-wrapper {
+    margin: 0 2rem;
+    padding: 2.5rem;
+    border-radius: 2rem;
+    background-color: var(--bg-color-secondory);
+    position: relative;
+    top: 2rem;
+}
+.landing-page-content {
+    margin: 0 0 0 0;
+}
+
+.theme-icon {
+    position: absolute;
+    right: 3rem;
+    top: 3rem;
+}
+
+
+.btn-join-now {
+    width: 100%;
+    max-width: inherit;
+    background-color: var(--primary-color);
+    border: none;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 0.5rem;
+}
+
+.landing-img-section{
+    margin: 0 auto;
+}
+.landing-img-section .main-page-banner-img {
+    width: 40rem;
+    height: auto;
+    animation:1s infinite,move_forward 8s linear infinite;	
+}
+
+@keyframes move_forward{
+	0%{transform:translateY(-10px);}
+	100%{transform:translateY(50px);}
+}
+.landing-page-footer {
+    margin: 0 0 0 0;
+} 
+
+.login-pos {
+    position: relative;
+    top: 7rem;
+}

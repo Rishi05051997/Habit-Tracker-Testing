@@ -1,0 +1,9 @@
+/*
+    Author: Vrushabh Dhatrak
+    Release: 0.1
+    Description : It's a layout css file
+*/
+.habits-listing {
+    height: 17rem;
+    overflow-y: auto;
+}

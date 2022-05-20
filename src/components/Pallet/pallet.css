@@ -1,0 +1,15 @@
+.pallet {
+    position: absolute;
+    top: 0;
+    right: 1rem;
+    background-color: var(--pallet-bg-color);
+    border-radius: 0.5rem;
+    box-shadow: 3px 3px 5px -3px var(--pallet-shadow-color);
+    z-index: 5;
+    width: 10rem;
+}
+
+.pallet-item:hover {
+    background-color:var(--primary-color);
+    border-radius: 0.5rem;
+}

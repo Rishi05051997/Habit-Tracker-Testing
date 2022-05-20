@@ -1,0 +1,150 @@
+/*
+    Author: Vrushabh Dhatrak
+    Release: 0.1
+    Description : It's a layout css file
+*/
+.home-wrapper {
+    display: grid;
+    height: 100vh;
+    grid-template-areas: "sidebar main-content progress";
+    grid-template-columns: 240px minmax(600px, 700px) 1fr auto;
+    overflow: hidden;
+}
+
+/* Sidebar started Here */
+.sidebar {
+    grid-area: sidebar;
+    color: var(--font-secondory-color);
+    background-color: var(--bg-color-secondory);
+}
+
+.sidebar-header {
+    border: 1px solid transparent;
+    width: 90%;
+    background-color:var(--hover-color);
+    border-radius: 0.3rem;
+    
+}
+
+.sidebar-avatar {
+    border-radius: 100%;
+    height: 20px;
+}
+.sidebar-list{
+    width: 90%;
+}
+.sidebar-list-item{
+    border: 1px solid transparent;
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+    font-weight:bold;
+    cursor: pointer;
+}
+
+.sidebar-list-item:hover {
+    background-color:var(--hover-color);
+}
+
+/* Main Content started Here */
+
+.main-content {
+    grid-area: main-content;
+    /* overflow-y: auto; */
+    border-right: 1px solid var(--border-color);
+}
+
+.progress-content {
+    grid-area: progress;
+    width: calc(100% - 240px - 700px);
+    transition: 0.5s;
+    height:100vh;
+}
+
+.main-content-nav {
+    border-bottom: 1px solid var(--border-color);
+}
+
+.spanning-content {
+    width: calc(100% - 240px);
+    transition: 0.5s;
+    position: absolute;
+    right: 0px;
+    height: 100vh;
+    /* overflow-y: auto; */
+}
+/* Progress Content Start Here */
+.progress-details {
+    max-height: calc(100vh - 100px);
+    overflow-y: auto;
+    /* grid-template-areas: "sidebar main-content progress";
+    grid-template-columns: 240px minmax(600px, 700px) 1fr auto; */
+    
+}
+.progress-sub-content {
+    width: 601px;
+    right: 0;
+    transition: 0.5s;
+    /* overflow-y: auto; */
+}
+
+.spanned-progress-sub-content {
+    width: calc(100% - 413px);
+    right: 413px;
+    transition: 0.5s;
+}
+.visibility-none{
+    visibility: hidden;
+}
+
+.main-content-list{
+    margin-left:auto;
+}
+/* Banner Start Here */
+/* .progress-details-banner {
+    border: 1px solid var(--border-color);
+    border-radius:0.5rem;
+} */
+
+.share-url-section{
+    border-top: 1px solid var(--border-color);
+}
+
+/* Current Streak Here */
+.current-streak-section{
+    border: 1px solid var(--border-color);
+    border-radius:0.5rem;
+}
+
+/* Estimation */
+.section-border {
+    border: 1px solid var(--border-color);
+    border-radius:0.5rem;
+}
+
+/* Calendor Start Here */
+.react-calendar {
+    width:100% !important;
+}
+
+/* Graph Section */
+.graph canvas {
+    background: var(--white-color);
+}
+
+/* Note Content Here */
+.notes-content {
+    width: 413px;
+    transition: 0.5s;
+    height: 100vh;
+    right: 0px;
+    top: 0;
+    position: absolute;
+}
+
+/* Labels Section Start Here */
+.label-section {
+    height: 3rem;
+    overflow-y: auto;
+}
+
+

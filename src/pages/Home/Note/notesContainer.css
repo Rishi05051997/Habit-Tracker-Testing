@@ -1,0 +1,28 @@
+/*
+    Author: Vrushabh Dhatrak
+    Release: 0.1
+    Description : It's a Notes Container css file
+*/
+.notes-section {
+    max-height: calc(100vh - 130px);
+    overflow-y: auto;
+}
+.note {
+    background-color: var(--primary-color);
+    height: 2rem;
+    word-break: break-all;
+    overflow-y: auto;
+}
+.note-footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+
+.close-icon {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+}

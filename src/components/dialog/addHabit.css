@@ -1,0 +1,9 @@
+.chips-content {
+    width: 100%;
+    border: 2px solid var(--primary-color);
+    display: flex;
+    flex-wrap: wrap;
+    height: 3rem;
+    overflow-y: auto;
+    border-radius: 0.5rem;
+}

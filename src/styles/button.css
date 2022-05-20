@@ -1,0 +1,27 @@
+/*
+    Author: Vrushabh Dhatrak
+    Release: 0.1
+    Description : It's a button css file
+*/
+.btn {
+    width: max-content;
+    border-radius: 0.2rem;
+    padding: 0.35rem;
+    border: 2px solid transparent;
+    color: var(--font-color);
+}
+
+.btn-primary {
+    background-color:var(--primary-color);
+}
+
+.btn-secondory {
+   border: 1px solid var(--primary-color);
+   background-color: var(--bg-color);
+   
+}
+
+.btn-secondory:hover {
+    background-color:var(--primary-color);
+}
+
